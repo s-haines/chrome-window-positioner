@@ -9,7 +9,7 @@ $(function() {
 		this.fullScreen = (typeof aFullScreen != "undefined") ? aFullScreen : false;
 		this.toString = function() {
 			var out = '<tr>';
-			out += '<td><input type="text" placeholder="URL" value="' + this.url + '" size="35" /></td>';
+			out += '<td><input type="text" placeholder="URL" value="' + this.url + '" size="65" /></td>';
 			out += '<td><input type="text" placeholder="X" value="' + this.x + '" size="5" /></td>';
 			out += '<td><input type="text" placeholder="Y" value="' + this.y + '" size="5" /></td>';
 			out += '<td><input type="text" placeholder="Width" value="' + this.w + '" size="5" /></td>';
